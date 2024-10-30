@@ -22,5 +22,6 @@
     <orderEntry type="library" name="jsp-api" level="project" />
     <orderEntry type="library" name="lombok-1.18.34" level="project" />
     <orderEntry type="library" name="jstl-1.2" level="project" />
+    <orderEntry type="library" name="mariadb-java-client-3.5.0" level="project" />
   </component>
 </module>

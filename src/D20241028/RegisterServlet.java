@@ -1,6 +1,6 @@
-package servlet.D20241028;
+package D20241028;
 
-import servlet.D20241028.domain.Member;
+import D20241028.domain.Member;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

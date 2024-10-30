@@ -1,4 +1,4 @@
-package servlet.D20241024;
+package D20241024;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;

@@ -1,4 +1,4 @@
-package servlet.D20241030.test;
+package D20241030.test;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

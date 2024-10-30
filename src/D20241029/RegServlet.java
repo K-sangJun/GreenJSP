@@ -1,6 +1,6 @@
-package servlet.D20241029;
+package D20241029;
 
-import servlet.D20241028.domain.Member;
+import D20241028.domain.Member;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

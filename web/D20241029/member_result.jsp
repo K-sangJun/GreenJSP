@@ -1,4 +1,4 @@
-<%@ page import="servlet.D20241028.domain.Member" %><%--
+<%@ page import="D20241028.domain.Member" %><%--
   Created by IntelliJ IDEA.
   User: GGG
   Date: 2024-10-29

@@ -1,4 +1,4 @@
-package servlet.D20241028.domain;
+package D20241028.domain;
 
 
 public class Member {

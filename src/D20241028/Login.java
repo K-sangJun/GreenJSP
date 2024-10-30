@@ -1,4 +1,4 @@
-package servlet.D20241028;
+package D20241028;
 
 import javax.servlet.http.HttpSession;
 

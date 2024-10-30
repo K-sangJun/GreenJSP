@@ -1,9 +1,8 @@
-package servlet.D20241025;
+package D20241025;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.net.URLEncoder;
 import java.util.Arrays;
 import javax.servlet.annotation.WebServlet;
