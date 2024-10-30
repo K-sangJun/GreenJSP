@@ -22,6 +22,9 @@
 <a href="main.jsp">main</a><br>
 <a href="elTest.jsp?x=4">elTest</a><br>
 <a href="color.jsp">color</a><br>
+<a href="p2.jsp">p2</a><br>
+<a href="login.jsp">login</a><br>
+<a href="index2.jsp">index2</a><br>
 <hr>
 
 <form action="/D20241029/reg.jsp" method="post">
