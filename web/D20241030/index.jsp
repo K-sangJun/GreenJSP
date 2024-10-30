@@ -19,4 +19,5 @@
     <a href="formatDate.jsp">formatDate</a><br>
     <a href="formatNumber.jsp">formatNumber</a><br>
     <a href="member/memberIndex.jsp">memberIndex</a><br>
+    <a href="rgb.jsp">rgb</a><br>
 </body>

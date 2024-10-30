@@ -22,7 +22,7 @@ public class ModifyMember extends HttpServlet {
         request.setCharacterEncoding("utf-8");
 
         MemberDao dao = new MemberDao();
-
+ 
         Member member = new Member();
         member.setName(request.getParameter("name"));
         member.setPhone(request.getParameter("phone"));

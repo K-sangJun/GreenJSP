@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%--
   Created by IntelliJ IDEA.
   User: GGG
@@ -16,6 +17,26 @@
         border-radius: 2px;
         cursor: pointer;
     }
+
+    table {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    td, th {
+        height: 50px;
+        padding: 10px;
+    }
+
+    td:nth-child(1) {
+        text-align: right;
+    }
+
+    td:nth-child(5),
+    td:nth-child(6),
+    td:nth-child(7) {
+        text-align: center;
+    }
 </style>
 <html>
     <head>
@@ -23,7 +44,9 @@
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     </head>
     <body>
-        <input id="return-btn" value="인덱스로" type="button" onclick="location.href='/D20241030/member/memberIndex.jsp'">
+        <div style="text-align: center; height: 50px">
+            <input id="return-btn" value="인덱스로" type="button" onclick="location.href='/D20241030/member/memberIndex.jsp'">
+        </div>
         <table border="1">
             <thead>
                 <tr>
@@ -39,7 +62,7 @@
             <tbody>
                 <c:forEach var="member" varStatus="status" items="${requestScope.members}">
                     <tr>
-                        <td>${member.mno}</td>
+                        <td><fmt:formatNumber value="${member.mno}" maxFractionDigits="2" /></td>
                         <td>${member.name}</td>
                         <td>${member.phone}</td>
                         <td>${member.addr}</td>

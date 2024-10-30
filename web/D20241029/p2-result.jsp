@@ -12,7 +12,7 @@
 </head>
 <body>
     ${param.result} <br>
-    <jsp:useBean id="member" scope="request" class="pojo.Member"/>
+    <jsp:useBean id="member" scope="request" class="D20241029.pojo.Member"/>
     <jsp:setProperty name="member" property="*"/>
 
     <jsp:getProperty name="member" property="id"/> <br>

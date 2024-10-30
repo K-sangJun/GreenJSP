@@ -32,13 +32,13 @@
 
     input[type=submit] {
         font-size: 2rem;
-        width: 50%;
+        width: 45%;
     }
 
     input {
         text-align: center;
         font-size: 2rem;
-        width: 50%;
+        width: 45%;
     }
 </style>
 <html>
