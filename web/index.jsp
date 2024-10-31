@@ -22,5 +22,6 @@
     <a href="D20241028/index.jsp">D20241028</a><br><br>
     <a href="D20241029/index.jsp">D20241029</a><br><br>
     <a href="D20241030/index.jsp">D20241030</a><br><br>
+    <a href="D20241031/index.jsp">D20241031</a><br><br>
 </div>
 </body>
