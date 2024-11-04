@@ -25,17 +25,17 @@ $(function () {
                 'Content-Type': 'application/x-www-form-urlencoded'
             }
         })
-            .then((response) => {
-                if (response.data >= 1){
-                    alert("저장하였습니다.");
-                    location.href = "/D20241101/orderList.jsp";
-                }else{
-                    alert("저장에 실패하였습니다.");
-                }
-            })
-            .catch((error) => {
-                console.log(error);
-            });
+        .then((response) => {
+            if (response.data >= 1){
+                alert("저장하였습니다.");
+                location.href = "/D20241101/orderList.jsp";
+            }else{
+                alert("저장에 실패하였습니다.");
+            }
+        })
+        .catch((error) => {
+            console.log(error);
+        });
 
     });
 
